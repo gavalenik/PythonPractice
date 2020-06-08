@@ -19,6 +19,7 @@ proxyList = {
 def telegram(text, notification):
 	params = {'chat_id': '318841796',  'text': text, 'disable_notification': notification}
 	response = requests.post('https://api.telegram.org/bot363794957:AAG0N43yr_atdip4gKxuymeyR2f3stH_LMA/sendMessage', proxies=proxyList, data=params)
+#	print (response)
 
 
 #program
