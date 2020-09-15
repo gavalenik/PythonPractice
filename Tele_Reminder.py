@@ -6,9 +6,7 @@ from datetime import datetime, timedelta, time
 from cryptography.fernet import Fernet
 
 #variables
-secret_key=b'Uc7hKWvXlxgs7EBti9keaJA8l3TfoieqUnejyKDeAys='
-bt_tkn=b'gAAAAABe3lsH-SaI_7TLuE6D_s9iLeT3jzRf96__57Bmi9Vs8IeLWgCcwAuxLJHVVWUk8CqxrkQbuQonIRREG7MMoxJra-GFZgFDP9gzfdSpwq7m1E3u2-l65QxYtzJ-7G25t0Od0e4OYWg4EMZL87Sf9iobmqFBiQ=='
-cipher = Fernet(secret_key)
+
 #encrypted_text = cipher.encrypt(b'123')
 
 proxyList = {
